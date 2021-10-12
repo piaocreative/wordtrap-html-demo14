@@ -1,0 +1,84 @@
+
+/* ----------------------------------------------------------------
+
+	shop.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Shop
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for shop pages. Thanks!
+-----------------------------------------------------------------*/
+
+/* testimonials
+-----------------------------------------------------------------*/
+.testimonials {
+	.slick-slide {
+		margin: 2rem;
+	}
+}
+
+.testimonial {
+	position: relative;
+	padding: 3rem 1.5rem;
+	box-shadow: 0 0 20px 20px #fafafa;
+
+	.testimonial-details {
+		color: $secondary;
+
+	}
+
+	.testimonial-meta {
+		font-family: Gilroy-semibold;
+		font-size: 0.875rem;
+
+		p {
+			transform: rotate(90deg);
+			margin-top: 2rem;
+		}
+
+		&:after {
+			position: relative;
+			display: inline-block;
+			content: "";
+			width: 1px;
+			height: 6rem;
+			background-color: #e2e3e3;
+			left: 2.25rem;
+    		top: 2rem;
+		}
+	}
+
+	.testimonial-title {
+		font-family: Gilroy-semibold;
+		font-size: 1.875rem;
+	}
+
+	.testimonial-age {
+		font-family: Gilroy-Medium;
+		color: #8b8c8e;
+	}
+
+	.testimonial-info {
+		font-family: Gilroy-Medium;
+	}
+
+	.testmonial-social {
+		a {
+			font-family: Gilroy-Medium;
+			font-size: 0.875rem;
+			text-decoration: none;
+		}
+	}
+
+	.quiote {
+		position: absolute;
+		top: 3.5rem;
+		right: 3rem;
+	}
+}

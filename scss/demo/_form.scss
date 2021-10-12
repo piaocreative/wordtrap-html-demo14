@@ -1,0 +1,34 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Form: form.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Form Styles
+-----------------------------------------------------------------*/
+#discount-form {
+    .input-group-append {
+        margin-left: -1rem;
+    }
+
+    button {
+        font-family: Gilroy-semibold;
+        background-image: linear-gradient(180deg, #fdd1ac, transparent);
+    }
+}
+
+#appoitnment-form {
+    button {
+        font-family: Gilroy-semibold;
+        background-image: linear-gradient(180deg, #fdd1ac, transparent);
+    }
+}
+
+#contact {
+	button {
+		font-family: Gilroy-semibold;
+        background-image: linear-gradient(180deg, #fdd1ac, transparent);
+	}
+}

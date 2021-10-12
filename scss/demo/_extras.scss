@@ -1,0 +1,255 @@
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+
+.shipping-banner {
+	position: absolute;
+	left: 4.375rem;
+	top: 5.625rem;	
+}
+
+.pagenation {
+	p {
+		font-family: Gilroy-semibold;
+		font-size: 1.125rem;
+
+		&.total {
+			color: #b1afaa;
+		}
+	}
+
+	span {
+		display: inline-block;
+		border-top: 1px solid #d0d0d0;
+		width: 4rem;
+		height: 1px;
+
+		&.active {
+			border-color: $dark;
+		}
+	}
+
+	.pagenation-control {
+		margin-left: 5rem;
+
+		@include media-breakpoint-down(lg) {
+			display: none;
+		}
+	}
+
+	&.service-dots {
+		position: absolute;
+		bottom: 1.5rem;
+		margin-left: 5rem;
+	}
+}
+
+.pagenation-control {
+	a {
+		color: $dark;
+		font-size: 1.5rem;
+
+		&:hover {
+			color: #a29f99;
+		}
+	}
+}
+
+.page-links {
+	font-family: Gilroy-semibold;
+	background-image: linear-gradient(180deg, #fdd1ac, transparent);
+	text-transform: uppercase;
+}
+
+// slider items//
+.slick-prev::before, .slick-next:before {
+	 font-size: 2rem;
+	 opacity: 1;
+	 color:#737373;
+
+	 @include media-breakpoint-down(lg) {
+		display: none;
+	}
+ }
+
+ .slick-prev {
+	 left:-3rem;
+
+	 @include media-breakpoint-down(lg) {
+		display: none !important;
+	}
+ }
+
+ .slick-next {
+    right: -3rem;
+
+	@include media-breakpoint-down(lg) {
+		display: none !important;
+	}
+}
+
+.slick-slide {
+	height: auto;
+}
+
+#subscribe {
+	input{
+		border-bottom: 1px solid $white;
+	}
+
+	input[type=text], input[type=email] {
+		height: 3rem;
+	}
+
+	label {
+		color: $white;
+		font-size: 0.8rem;
+		display: block;
+		margin-bottom: -1rem;
+	}
+
+	button {
+		font-size: 0.8rem;
+		padding: 1.2rem 2.5rem;
+		font-weight: 700;
+		letter-spacing: 0.05rem;
+
+		i {
+			font-size: 0.9rem;
+			margin-left: 1rem;
+		}
+	}
+}
+
+.video-btn {
+	max-width: 16rem;
+
+	a {
+		padding: 2.5rem;
+		border: 1px solid #a2a2a1;
+		border-radius: 50%;
+		color: $dark;
+	}
+
+	&.main {
+		position: absolute;
+		bottom: 0;
+		right: 12rem;
+
+		&:before {
+			display: inline-block;
+			content: "";
+			width: 1px;
+			height: 14rem;
+			background-color: #d8d8d5;
+			position: absolute;
+			top: -15rem;
+			left: 12.5rem;
+		}
+	}
+
+	&.about {
+		position: absolute;
+		bottom: 2rem;
+		left: 0;
+
+		&:before {
+			position: absolute;
+			display: inline-block;
+			content: "";
+			width: 13rem;
+			height: 1px;
+			background-color: #d7d4cc;
+			left: -14rem;
+		}
+
+		@include media-breakpoint-down(lg) {
+			position: relative;
+			bottom: 0;
+		}
+	}
+}
+
+.fracies-image {
+	position: absolute;
+	top: -4rem;
+	right: 0;
+	width: 100%;
+
+	@include media-breakpoint-down(lg) {
+		position: relative;
+		top: 0;
+		right: 0;
+	}
+}
+
+.about-more {
+	background-color: #fdf9ef;
+	margin-bottom: 6rem;
+	min-height: 27rem;
+
+	h4 {
+		font-size: 2.25rem;
+		position: relative;
+		top: 23rem;
+		left: -5rem;
+	}
+
+	.image {
+		position: absolute;
+		width: 100%;
+		top: 8rem;
+		right: 0;
+	}
+
+	@include media-breakpoint-down(lg) {
+		.image {
+			position: relative;
+			top: 0;
+			right: 0;
+		}
+
+		h4 {
+			top: 0;
+			left: 0;
+			text-align: center;
+		}
+	}
+}
+
+.gallery {
+	position: absolute;
+	top: 4.5rem;
+	right: -5rem;
+
+	img {
+		max-height: 23rem;
+		width: 100%;
+	}
+
+	@include media-breakpoint-down(lg) {
+		position: relative;
+		top: 0;
+		right: 0;
+
+		img {
+			max-height: 100%;
+		}
+	}
+}
+
+.discount-image {
+	position: absolute;
+	left: 0;
+	top: -1rem;
+	width: 100%;
+
+	@include media-breakpoint-down(lg) {
+		position: relative;
+		top: 0;
+	}
+}
+
+#appointment {
+	padding: 12rem 4rem 3rem;
+}

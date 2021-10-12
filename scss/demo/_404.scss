@@ -1,0 +1,23 @@
+/* ----------------------------------------------------------------
+
+	404.scss
+
+-----------------------------------------------------------------*/
+.error-404 {
+    .error-logo {
+        font-family: $heading-font;
+        font-size: 18.75rem;
+        font-style: italic;
+        line-height: 0.9;
+        margin-top: -4rem;
+    }
+
+    h4 {
+        font-size: 1.875rem;
+    }
+
+    a {
+        font-family: Gilroy-semibold;
+        background-image: linear-gradient(180deg, #fdd1ac, transparent);
+    }
+}

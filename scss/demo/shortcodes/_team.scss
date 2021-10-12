@@ -1,0 +1,63 @@
+
+/* ----------------------------------------------------------------
+
+	team.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Team
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for team pages. Thanks!
+-----------------------------------------------------------------*/
+
+.team {
+    position: relative;
+    margin: 1rem;
+
+    .team-image {
+        img {
+            width: 100%;
+        }
+    }
+
+    .team-details {
+        padding: 1.5rem;
+    }
+
+    .team-name {
+        font-family: Gilroy-semibold;
+        font-size: 1.875rem;
+    }
+
+    .team-info {
+        font-family: Gilroy-Medium;
+        color: $theme-color;
+    }
+
+    .team-btn {
+        a {
+            font-family: Gilroy-semibold;
+            border: 1px solid $theme-color;
+
+            &:hover {
+                background-color: $theme-color;
+                border: none;
+                background-image: linear-gradient(180deg, #fdd1ac, transparent);
+            }
+        }
+    }
+
+}
+
+.teams {
+    .slick-dots {
+        display: flex;
+        bottom: -4.25rem;
+        left: 4rem;
+    }
+}
