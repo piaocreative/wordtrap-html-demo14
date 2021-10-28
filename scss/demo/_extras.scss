@@ -149,10 +149,6 @@
 	}
 
 	&.about {
-		position: absolute;
-		bottom: 2rem;
-		left: 0;
-
 		&:before {
 			position: absolute;
 			display: inline-block;
@@ -163,90 +159,67 @@
 			left: -14rem;
 		}
 
-		@include media-breakpoint-down(lg) {
-			position: relative;
-			bottom: 0;
+		@include media-breakpoint-up(lg) {
+			position: absolute;
+			bottom: 2rem;
+			left: 0;
 		}
 	}
 }
 
 .fracies-image {
-	position: absolute;
-	top: -4rem;
-	right: 0;
-	width: 100%;
-
-	@include media-breakpoint-down(lg) {
-		position: relative;
-		top: 0;
+	@include media-breakpoint-up(lg) {
+		position: absolute;
+		top: -4rem;
 		right: 0;
+		width: 100%;
 	}
 }
 
 .about-more {
 	background-color: #fdf9ef;
-	margin-bottom: 6rem;
+	margin-bottom: 2rem;
 	min-height: 27rem;
 
-	h4 {
-		font-size: 2.25rem;
-		position: relative;
-		top: 23rem;
-		left: -5rem;
-	}
-
-	.image {
-		position: absolute;
-		width: 100%;
-		top: 8rem;
-		right: 0;
-	}
-
-	@include media-breakpoint-down(lg) {
-		.image {
-			position: relative;
-			top: 0;
-			right: 0;
-		}
-
+	@include media-breakpoint-up(lg) {
 		h4 {
-			top: 0;
-			left: 0;
-			text-align: center;
+			font-size: 2.25rem;
+			position: relative;
+			left: -6rem;
+		}
+	
+		.image {
+			position: absolute;
+			width: 100%;
+			top: 8rem;
+			right: 0;
 		}
 	}
 }
 
 .gallery {
-	position: absolute;
-	top: 4.5rem;
-	right: -5rem;
-
 	img {
-		max-height: 23rem;
-		width: 100%;
+		max-height: 100%;
 	}
 
-	@include media-breakpoint-down(lg) {
-		position: relative;
-		top: 0;
-		right: 0;
+	@include media-breakpoint-up(lg) {
+		position: absolute;
+		top: 4.5rem;
+		right: -5rem;
 
 		img {
-			max-height: 100%;
+			max-height: 23rem;
+			width: 100%;
 		}
 	}
 }
 
 .discount-image {
-	position: absolute;
-	left: 0;
-	top: -1rem;
-	width: 100%;
-
-	@include media-breakpoint-down(lg) {
-		position: relative;
-		top: 0;
+	@include media-breakpoint-up(lg) {
+		position: absolute;
+		left: 0;
+		top: -1rem;
+		width: 100%;
 	}
 }
 

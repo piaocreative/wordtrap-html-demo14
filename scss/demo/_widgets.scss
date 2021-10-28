@@ -71,8 +71,6 @@
 	// Widget - Links
 	&.widget-links {
 		ul {
-			list-style: none;
-
 			li {
 				line-height: 1;
 				margin-bottom: 1rem;
@@ -91,7 +89,6 @@
 
 	@include media-breakpoint-down(md) {
 		&.widget-links {
-
 			.widget-content {
 				justify-content: space-between;
 			}
@@ -163,18 +160,6 @@
 				.input-group-append {
 					margin-left: -3rem;
 					margin-bottom: 0.5rem;
-				}
-
-				input {
-					border-bottom: 1px solid #747474;
-				}
-
-				button {
-					font-size: 1.5rem;
-					background-color: $theme-color;
-					color: #fff;
-					padding: .3rem .7rem;
-					border-radius: 50%;
 				}
 			}
 		}

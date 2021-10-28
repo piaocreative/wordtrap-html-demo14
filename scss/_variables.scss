@@ -15,8 +15,6 @@
 $theme-color:                   #f0b77f;
 $body-color:                    #000000;
 $heading-color:                 #3e4042;
-$third-color:                   #2e2e2e;
-// $body-bg:                       #f9f9f9;
 
 //-------------------- Redefine Bootstrap Variables ------------//
 
@@ -136,31 +134,9 @@ $input-font-weight:				      400;
 $input-focus-box-shadow:		    0 0 0 1px #e5e8e8;
 $input-placeholder-color:       #606060;
 
-$form-check-input-width:                  1.2em;
-$form-check-min-height:                   2rem;
-$form-check-padding-start:                $form-check-input-width + .5em;
-$form-check-input-checked-color:          black;
-$form-check-input-checked-bg-color:       #ffffff;
-
-$form-check-input-bg:                     $theme-color;
-$form-check-input-border:                 1px solid rgba($theme-color, .25);
-$form-check-input-border-radius:          .25em;
-$form-check-radio-border-radius:          50%;
-
-//Selects
-$form-select-padding-y:          $input-btn-padding-y;
-$form-select-padding-x:          $input-btn-padding-x;
-$form-select-border-radius:      0;
-$form-select-font-family:        $body-font;
-$form-select-font-size:          0.8rem;
-$form-select-color:            #000;
-$form-select-indicator-color:  #000;
-$form-select-border-radius:      $input-border-radius;
-$form-select-font-size:          $input-btn-font-size;
-
 
 // Buttons
-$btn-font-family:               $body-font;
+$btn-font-family:               Gilroy-semibold;
 
 $btn-padding-y:                 1.75rem;
 $btn-padding-x:                 4.25rem;
