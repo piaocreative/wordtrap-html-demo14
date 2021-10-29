@@ -10,7 +10,6 @@
 		display: flex;
 		border: 1px solid #c5c5c2;
 		justify-content: center;
-		margin: auto;
 
 		img {
 			width: auto;
@@ -31,7 +30,7 @@
 		}
 	}
 
-	@include media-breakpoint-down(sm) {
-		padding: 0 !important;
+	@include media-breakpoint-down(lg) {
+		margin: auto;
 	}
 } 

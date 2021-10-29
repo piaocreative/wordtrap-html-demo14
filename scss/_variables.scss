@@ -101,6 +101,10 @@ $top-btn-font-color:       		#ffffff;
 
 $section-spacer:				4.5rem;
 
+$container-max-widths: (
+  xxl: 85%,
+);
+
 
 
 // Forms
@@ -133,6 +137,14 @@ $input-border-radius-lg:        1.83rem;
 $input-font-weight:				      400;
 $input-focus-box-shadow:		    0 0 0 1px #e5e8e8;
 $input-placeholder-color:       #606060;
+
+//select
+$form-select-padding-y:         $input-btn-padding-y;
+$form-select-padding-x:         $input-btn-padding-x;
+$form-select-font-size:         $input-btn-font-size;
+$form-select-focus-box-shadow:  0 0 0 #000000;
+$form-select-border-radius:     $input-border-radius;
+$form-select-color:             #606060;
 
 
 // Buttons

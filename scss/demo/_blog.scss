@@ -44,7 +44,7 @@
 
 	.entry-content {
 		color: $dark;
-		line-height: 1.5;
+		line-height: 1.8;
 	}
 
 	.read-more-link {
@@ -63,5 +63,6 @@
 		font-family: Gilroy-semibold;
 		font-size: 1.125rem;
 		color: $dark;
+		text-decoration: underline;
 	}
 }
